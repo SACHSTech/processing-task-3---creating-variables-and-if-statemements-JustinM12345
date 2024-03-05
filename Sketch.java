@@ -1,8 +1,16 @@
 import processing.core.PApplet;
+import java.util.Random;
 
 public class Sketch extends PApplet {
 	
-	
+  Random myRandom = new Random();
+ 
+	// Variables 
+  int intRandom1 = myRandom.nextInt(50);
+  int intRandom2 = myRandom.nextInt(50);
+  int intRandom3 = myRandom.nextInt(50);
+
+  
   /**
    * Called once at the beginning of execution, put your size all in this method
    */
