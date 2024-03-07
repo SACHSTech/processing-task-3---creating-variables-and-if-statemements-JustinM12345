@@ -71,6 +71,7 @@ public class Sketch extends PApplet {
     fill(255, 255, 50);
     ellipse(50 + intRandomSunX, 50 + intRandomSunY, 100, 100);
 
+    // Special Stormy Cloud 
     if (intRandomCloudLocation == 2 && intRandomSecretCloudLocation == 1) {
       noStroke();
       fill(110, 109, 107);
@@ -120,6 +121,5 @@ public class Sketch extends PApplet {
     text(strYear , 40, 28);
 
   }
-  
-  // define other methods down here.
+
 }
